@@ -1,0 +1,278 @@
+
+{
+	"buildFiles" : [ "/Users/leejohnnie/code/OpenCVDemo/app/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"/Users/leejohnnie/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/leejohnnie/code/OpenCVDemo/app/.externalNativeBuild/cmake/release/x86_64 --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"IlmImf-Release-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "IlmImf",
+			"buildType" : "release",
+			"output" : "/Users/leejohnnie/Downloads/OpenCV-android-sdk/sdk/native/3rdparty/libs/x86_64/libIlmImf.a",
+			"toolchain" : "10156138719735872005"
+		},
+		"ippicv-Release-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "ippicv",
+			"buildType" : "release",
+			"output" : "/Users/leejohnnie/Downloads/OpenCV-android-sdk/sdk/native/3rdparty/libs/x86_64/libippicv.a",
+			"toolchain" : "10156138719735872005"
+		},
+		"ippiw-Release-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "ippiw",
+			"buildType" : "release",
+			"output" : "/Users/leejohnnie/Downloads/OpenCV-android-sdk/sdk/native/3rdparty/libs/x86_64/libippiw.a",
+			"toolchain" : "10156138719735872005"
+		},
+		"ittnotify-Release-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "ittnotify",
+			"buildType" : "release",
+			"output" : "/Users/leejohnnie/Downloads/OpenCV-android-sdk/sdk/native/3rdparty/libs/x86_64/libittnotify.a",
+			"toolchain" : "10156138719735872005"
+		},
+		"libcpufeatures-Release-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "libcpufeatures",
+			"buildType" : "release",
+			"output" : "/Users/leejohnnie/Downloads/OpenCV-android-sdk/sdk/native/3rdparty/libs/x86_64/libcpufeatures.a",
+			"toolchain" : "10156138719735872005"
+		},
+		"libjasper-Release-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "libjasper",
+			"buildType" : "release",
+			"output" : "/Users/leejohnnie/Downloads/OpenCV-android-sdk/sdk/native/3rdparty/libs/x86_64/liblibjasper.a",
+			"toolchain" : "10156138719735872005"
+		},
+		"libjpeg-turbo-Release-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "libjpeg-turbo",
+			"buildType" : "release",
+			"output" : "/Users/leejohnnie/Downloads/OpenCV-android-sdk/sdk/native/3rdparty/libs/x86_64/liblibjpeg-turbo.a",
+			"toolchain" : "10156138719735872005"
+		},
+		"libpng-Release-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "libpng",
+			"buildType" : "release",
+			"output" : "/Users/leejohnnie/Downloads/OpenCV-android-sdk/sdk/native/3rdparty/libs/x86_64/liblibpng.a",
+			"toolchain" : "10156138719735872005"
+		},
+		"libprotobuf-Release-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "libprotobuf",
+			"buildType" : "release",
+			"output" : "/Users/leejohnnie/Downloads/OpenCV-android-sdk/sdk/native/3rdparty/libs/x86_64/liblibprotobuf.a",
+			"toolchain" : "10156138719735872005"
+		},
+		"libtiff-Release-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "libtiff",
+			"buildType" : "release",
+			"output" : "/Users/leejohnnie/Downloads/OpenCV-android-sdk/sdk/native/3rdparty/libs/x86_64/liblibtiff.a",
+			"toolchain" : "10156138719735872005"
+		},
+		"libwebp-Release-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "libwebp",
+			"buildType" : "release",
+			"output" : "/Users/leejohnnie/Downloads/OpenCV-android-sdk/sdk/native/3rdparty/libs/x86_64/liblibwebp.a",
+			"toolchain" : "10156138719735872005"
+		},
+		"native-lib-Release-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "native-lib",
+			"buildCommand" : "/Users/leejohnnie/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/leejohnnie/code/OpenCVDemo/app/.externalNativeBuild/cmake/release/x86_64 --target native-lib",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=/Users/leejohnnie/Library/Android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/leejohnnie/Library/Android/sdk/ndk-bundle/platforms/android-24/arch-x86_64  -Dnative_lib_EXPORTS -isystem /Users/leejohnnie/Downloads/OpenCV-android-sdk/sdk/native/jni/include -isystem /Users/leejohnnie/Downloads/OpenCV-android-sdk/sdk/native/jni/include/opencv -isystem /Users/leejohnnie/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/leejohnnie/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /Users/leejohnnie/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -frtti -fexceptions -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/leejohnnie/code/OpenCVDemo/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "/Users/leejohnnie/code/OpenCVDemo/app/.externalNativeBuild/cmake/release/x86_64"
+				}
+			],
+			"output" : "/Users/leejohnnie/code/OpenCVDemo/app/build/intermediates/cmake/release/obj/x86_64/libnative-lib.so",
+			"toolchain" : "10156138719735872005"
+		},
+		"opencv_calib3d-Release-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "opencv_calib3d",
+			"buildType" : "release",
+			"output" : "/Users/leejohnnie/Downloads/OpenCV-android-sdk/sdk/native/staticlibs/x86_64/libopencv_calib3d.a",
+			"toolchain" : "10156138719735872005"
+		},
+		"opencv_core-Release-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "opencv_core",
+			"buildType" : "release",
+			"output" : "/Users/leejohnnie/Downloads/OpenCV-android-sdk/sdk/native/staticlibs/x86_64/libopencv_core.a",
+			"toolchain" : "10156138719735872005"
+		},
+		"opencv_dnn-Release-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "opencv_dnn",
+			"buildType" : "release",
+			"output" : "/Users/leejohnnie/Downloads/OpenCV-android-sdk/sdk/native/staticlibs/x86_64/libopencv_dnn.a",
+			"toolchain" : "10156138719735872005"
+		},
+		"opencv_features2d-Release-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "opencv_features2d",
+			"buildType" : "release",
+			"output" : "/Users/leejohnnie/Downloads/OpenCV-android-sdk/sdk/native/staticlibs/x86_64/libopencv_features2d.a",
+			"toolchain" : "10156138719735872005"
+		},
+		"opencv_flann-Release-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "opencv_flann",
+			"buildType" : "release",
+			"output" : "/Users/leejohnnie/Downloads/OpenCV-android-sdk/sdk/native/staticlibs/x86_64/libopencv_flann.a",
+			"toolchain" : "10156138719735872005"
+		},
+		"opencv_highgui-Release-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "opencv_highgui",
+			"buildType" : "release",
+			"output" : "/Users/leejohnnie/Downloads/OpenCV-android-sdk/sdk/native/staticlibs/x86_64/libopencv_highgui.a",
+			"toolchain" : "10156138719735872005"
+		},
+		"opencv_imgcodecs-Release-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "opencv_imgcodecs",
+			"buildType" : "release",
+			"output" : "/Users/leejohnnie/Downloads/OpenCV-android-sdk/sdk/native/staticlibs/x86_64/libopencv_imgcodecs.a",
+			"toolchain" : "10156138719735872005"
+		},
+		"opencv_imgproc-Release-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "opencv_imgproc",
+			"buildType" : "release",
+			"output" : "/Users/leejohnnie/Downloads/OpenCV-android-sdk/sdk/native/staticlibs/x86_64/libopencv_imgproc.a",
+			"toolchain" : "10156138719735872005"
+		},
+		"opencv_java-Release-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "opencv_java",
+			"buildType" : "release",
+			"output" : "/Users/leejohnnie/Downloads/OpenCV-android-sdk/sdk/native/libs/x86_64/libopencv_java3.so",
+			"toolchain" : "10156138719735872005"
+		},
+		"opencv_ml-Release-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "opencv_ml",
+			"buildType" : "release",
+			"output" : "/Users/leejohnnie/Downloads/OpenCV-android-sdk/sdk/native/staticlibs/x86_64/libopencv_ml.a",
+			"toolchain" : "10156138719735872005"
+		},
+		"opencv_objdetect-Release-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "opencv_objdetect",
+			"buildType" : "release",
+			"output" : "/Users/leejohnnie/Downloads/OpenCV-android-sdk/sdk/native/staticlibs/x86_64/libopencv_objdetect.a",
+			"toolchain" : "10156138719735872005"
+		},
+		"opencv_photo-Release-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "opencv_photo",
+			"buildType" : "release",
+			"output" : "/Users/leejohnnie/Downloads/OpenCV-android-sdk/sdk/native/staticlibs/x86_64/libopencv_photo.a",
+			"toolchain" : "10156138719735872005"
+		},
+		"opencv_shape-Release-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "opencv_shape",
+			"buildType" : "release",
+			"output" : "/Users/leejohnnie/Downloads/OpenCV-android-sdk/sdk/native/staticlibs/x86_64/libopencv_shape.a",
+			"toolchain" : "10156138719735872005"
+		},
+		"opencv_stitching-Release-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "opencv_stitching",
+			"buildType" : "release",
+			"output" : "/Users/leejohnnie/Downloads/OpenCV-android-sdk/sdk/native/staticlibs/x86_64/libopencv_stitching.a",
+			"toolchain" : "10156138719735872005"
+		},
+		"opencv_superres-Release-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "opencv_superres",
+			"buildType" : "release",
+			"output" : "/Users/leejohnnie/Downloads/OpenCV-android-sdk/sdk/native/staticlibs/x86_64/libopencv_superres.a",
+			"toolchain" : "10156138719735872005"
+		},
+		"opencv_video-Release-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "opencv_video",
+			"buildType" : "release",
+			"output" : "/Users/leejohnnie/Downloads/OpenCV-android-sdk/sdk/native/staticlibs/x86_64/libopencv_video.a",
+			"toolchain" : "10156138719735872005"
+		},
+		"opencv_videoio-Release-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "opencv_videoio",
+			"buildType" : "release",
+			"output" : "/Users/leejohnnie/Downloads/OpenCV-android-sdk/sdk/native/staticlibs/x86_64/libopencv_videoio.a",
+			"toolchain" : "10156138719735872005"
+		},
+		"opencv_videostab-Release-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "opencv_videostab",
+			"buildType" : "release",
+			"output" : "/Users/leejohnnie/Downloads/OpenCV-android-sdk/sdk/native/staticlibs/x86_64/libopencv_videostab.a",
+			"toolchain" : "10156138719735872005"
+		},
+		"tbb-Release-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "tbb",
+			"buildType" : "release",
+			"output" : "/Users/leejohnnie/Downloads/OpenCV-android-sdk/sdk/native/3rdparty/libs/x86_64/libtbb.a",
+			"toolchain" : "10156138719735872005"
+		}
+	},
+	"toolchains" : 
+	{
+		"10156138719735872005" : 
+		{
+			"cCompilerExecutable" : "/Users/leejohnnie/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/leejohnnie/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}
